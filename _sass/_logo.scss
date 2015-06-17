@@ -1,0 +1,27 @@
+.logo {
+    
+    color: $dark-gray;
+    display: inline-block;
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 3.5em;
+    margin: 0;
+
+  > a {
+    border: none;
+  	color: $brand-color;
+  	text-decoration: none;
+
+  	&:hover {
+      border: none;
+  		text-decoration: none;
+  	}
+  }
+
+  &.logo-inverse {
+    color: white;
+  }
+
+  &.logo-large {
+  	border-bottom: 10px solid $gold;
+  }
+}

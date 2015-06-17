@@ -1,0 +1,57 @@
+.about-me-main {
+  background: $brand-color;
+  color: white;
+  font-family: Arial;
+  padding: 20px 0; 
+  text-align: center;
+
+  .logo {
+    margin-bottom: 15px;
+    font-size: 5em;
+  }
+
+  .about-me-message {
+    font-family: $font-family-heading;
+    font-size: 2em;
+    font-weight: 100;
+
+    line-height: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 10px;
+    
+    
+  }
+}
+
+.about-me {
+  background-color: rgba(lightgray, .7);
+  background: url(http://subtlepatterns.com/patterns/furley_bg.png);
+  padding: 30px 0;
+
+  .about-me-image {
+    float: left;
+    margin-bottom: 0;
+    padding: 0 20px 0px 0;
+    width: auto;
+
+  }
+  
+}
+
+.profile-pic {
+  max-width: 350px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .about-me {
+    .about-me-image {
+      float: none;
+      margin: 0 auto 20px 0;
+      width: 100%;
+    }
+  }
+}
+
+@import "skills";

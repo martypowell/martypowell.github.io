@@ -1,0 +1,17 @@
+---
+layout: work
+title:  "Peninsula Skating Rink"
+date:   2014-10-04 11:29:46
+category: work
+siteUrl: http://psarink.org
+thumbnail: /img/rink-thumb.jpg
+image: /img/rink.jpg
+---
+The Peninsula Skating Rink is a small website that provides information about a local outdoor skating rink in Blue Hill, Maine.
+
+I worked with my brother in law to create a basic site that contains rink information and a photo gallery.  This site is going to be moved to Wordpress in the near future.  The update will allow the customer to update all of their content and give them the ability change the status of the rink from open to closed on the home page.
+
+For this project I worked as the designer and developer. Some of the design elements were provided by my awesome co-worker <a href="https://www.linkedin.com/in/samdurphy" title="Visit Sam on LinkedIn">Sam Durphy</a>.
+
+
+Check out the <a href="http://psarink.org" title="Vist the homepage of the Peninsula Skating Rink of Blue Hill, Maine">Peninsula Skating Rink</a>

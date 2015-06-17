@@ -1,0 +1,69 @@
+.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  
+  display: flex;
+  
+  /* Then we define the flow direction and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row no-wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  li {
+    overflow-y: hidden;
+    position: relative;
+    
+    i {
+      padding: 10px 0;
+      transition: none;
+      &:hover {
+        border-bottom: 5px solid gold;
+        padding-bottom: 5px;
+        transition: none;
+      }
+    }
+    
+    a {
+      transition: none;
+
+      &:hover {
+        border: none;
+
+        span {
+          background: $brand-color;
+          color: white;
+        }
+      }
+    }
+    
+    span {
+      display: block;
+      padding: 10px;
+      text-align: center;
+
+      &:hover {
+        display: block;
+      }
+    }
+  }
+  
+}
+
+@media (max-width : 800px) {
+  .fa-5x {
+    font-size: 3em;
+  }
+}
+
+@media (max-width : 500px) {
+  .fa-5x {
+    font-size: 2em;
+  }
+}

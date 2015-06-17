@@ -1,0 +1,12 @@
+---
+layout: work
+title:  "Seperate Checks Comic"
+date:   2014-10-05 11:30:46
+category: work
+siteUrl: http://separatecheckscomic.com/
+thumbnail: /img/sc-comic-thumb.jpg
+image: /img/sc-comic.jpg
+---
+Minimal Wordpress site to display a comic about the restaurant biz.
+
+Check out <a href="http://separatecheckscomic.com/" title="Vist the homepage of Run Army Sister">Separate Checks Comic</a>

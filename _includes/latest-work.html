@@ -1,0 +1,28 @@
+<div class="container" id="work">
+  <div class="row">
+    <div class="sixteen columns">
+      <h2>My <strong>Work</strong></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="sixteen columns">
+      <div class="latest-work-list">
+        {% for post in site.posts %}
+          {% if post.category == "work" %}
+            <figure class="latest-work-item effect-honey">
+                <img src="{{ post.thumbnail}}" alt="View more infomration about {{ post.title }}" />
+                <figcaption>
+                  <h3>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  </h3>
+                </figcaption>
+              </figure>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row see-more-work">
+    <p>You can view more of my work on <a href="https://www.linkedin.com/in/jeffreymartinpowelljr#background-projects" title="View more of my work on LinkedIn">LinkedIn</a>.
+  </div>
+</div>

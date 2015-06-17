@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    {% if page.active == "home" %}
+      <div class="about-me">
+        <h1 class="logo logo-inverse logo-large">MP</h1>
+        <p class="about-me-message">My name is Marty<span class="gold">.</span><br /> I enjoy helping people &amp; keeping things simple<span class="gold">.</span></p>
+      </div>
+    {% endif %}
+
+    <div class="page-content">
+      <div class="wrapper wrapper-small">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

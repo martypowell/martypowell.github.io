@@ -1,0 +1,26 @@
+.contact-container {
+	padding: 20px 0;
+}
+.contact-form {
+	width: 100%;
+	.form-field, .form-submit {
+		display: block;
+		font-size: $base-font-size;
+		margin-bottom: 20px;
+		padding: 15px;
+		width: 100%;
+	}
+	.form-field {
+	  	border: solid 1px #CCC;
+	  	outline: none;
+	  	color: #414141;
+	}
+
+	textarea {
+		min-height: 200px;
+	}
+
+	.form-submit {
+		@extend .btn;
+	}
+}

@@ -1,0 +1,12 @@
+# Site settings
+title: Marty Powell
+email: jpowel25@gmail.com
+description: Marty Powell is a passionate web developer that is constantly trying to get better.  He tries to help people by keeping things simple and easy.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://martypowell.com" # the base hostname & protocol for your site
+twitter_username: martypowell
+github_username:  martypowell
+linkedin_username: jeffreymartinpowelljr
+
+# Build settings
+markdown: kramdown

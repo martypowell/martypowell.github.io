@@ -1,0 +1,24 @@
+.btn {
+	background: none;
+	border: 0;
+	color: white;
+	display: inline-block;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+	background: #f1c40f;
+	transition: none;
+
+	&:hover {
+		background: rgba($gold, .7);
+		color: white;
+		border-bottom: 0;
+		cursor: pointer;
+		text-decoration: none;
+	}
+}
+
+.btn-large {
+	font-size: 1.75em;
+	padding: 20px;
+}
