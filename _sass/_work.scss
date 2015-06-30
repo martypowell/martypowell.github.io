@@ -1,5 +1,5 @@
 .latest-work {
-	padding: 20px 0;
+    padding: 20px 0;
 }
 
 .latest-work-list
@@ -12,8 +12,6 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
-    -ms-justify-content: space-between;
-    -webkit-justify-content: space-between;
     justify-content: space-between;
 
 
@@ -22,54 +20,60 @@
     overflow: hidden;
 
     .latest-work-item {
-    	margin-bottom: 0;
-    	position: relative;
-    	text-align: center;
+        margin-bottom: 0;
+        position: relative;
+        text-align: center;
 
-    	img, h3 {
-    		margin: 0;
-    	}
+        img, h3 {
+            margin: 0;
+        }
 
-    	a {
-    		position: absolute;
-    		top: 0;
-    		left: 0;
-    		height: 100%;
-    		width: 100%;
-    		z-index: 999;
+        img {
+            max-width: 250px;
+            max-height: 250px;
+        }
 
-    		background: rgba($brand-color, .2);
-    		color: white;
-    		padding: 10px;
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 999;
 
-    		vertical-align: middle;
+            background: rgba($brand-color, .2);
+            color: white;
+            padding: 10px;
 
-    		transition: 0;
+            vertical-align: middle;
 
-    		&:hover {
-    			border: 0;
-    			background: rgba($brand-color, .4);
+            transition: 0;
 
-    		}
-    	}
+            &:hover {
+                border: 0;
+                background: rgba($brand-color, .4);
+
+            }
+        }
     }
 }
 
 
 .work-image {
-	display: block;
-	margin-bottom: 20px;
-	width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    width: 100%;
 }
 .link-image {
-	&:hover {
-		border-bottom: 3px solid transparent;
-	}
+    &:hover {
+        border-bottom: 3px solid transparent;
+    }
 }
 
 .see-more-work, .see-more-work p {
     margin-bottom: 0;
-	text-align: center;
+    text-align: center;
 }
 
 @media (max-width : 1200px) {
