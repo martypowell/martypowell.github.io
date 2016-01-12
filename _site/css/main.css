@@ -807,6 +807,7 @@ or wrap each row of columns in a <div class="row"> */
     outline: none;
     color: #414141; }
   .contact-form textarea {
+    font-family: arial, sans-serif;
     min-height: 200px; }
 
 .logo {
