@@ -11,7 +11,7 @@ I work for a mid sized Government IT department as a web developer.  For the mos
 
 I spend a good amount of time outside of work developing.  I really enjoy working on websites for small businesses and organizations and improving my programming skills.
 
-In my free time, I enjoy playing pretty much anything and hanging out with my family &amp; dogs in the wilderness.  I'm always happy when I stumble into a good meal with lots of meat, a potato and an adult bevarage or two.
+In my free time, I enjoy playing pretty much anything and hanging out with my family &amp; dogs in the wilderness.  I love a good meal with an adult beverage or two.
 
 When I grow up, I would love to be a Ruby on Rails or Full Stack Javascript developer.
 
